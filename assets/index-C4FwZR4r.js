@@ -148,6 +148,6 @@ And if you want to get really crazy, even tables:
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
 
-![freeCodeCamp Logo](../public/Kucing-Imut.svg)
+![freeCodeCamp Logo](./Kucing-Imut.svg)
 `;function Ig(){const[s,c]=Nn.useState(!1),[h,f]=Nn.useState(!1),[o,b]=Nn.useState(Fg);ut.setOptions({breaks:!0,gfm:!0});const y=()=>({__html:ut(o)}),E=C=>{b(C.target.value)},x=()=>{c(C=>!C)},v=()=>{f(C=>!C)};return sl.jsxs("div",{className:"markdown-app",children:[sl.jsxs("div",{className:`editor-container ${h?"close":""}`,children:[sl.jsxs("h2",{className:"toolbar",children:["Editor"," ",s?sl.jsx(h0,{onClick:x,className:"icon"}):sl.jsx(d0,{onClick:x,className:"icon"})]}),sl.jsx("textarea",{id:"editor",value:o,onChange:E,rows:s?30:6})]}),sl.jsxs("div",{className:`preview-container ${s?"close":""} 
         `,children:[sl.jsxs("h2",{className:"toolbar",children:["Preview"," ",h?sl.jsx(h0,{onClick:v,className:"icon"}):sl.jsx(d0,{onClick:v,className:"icon"})]}),sl.jsx("div",{id:"preview",dangerouslySetInnerHTML:y()})]})]})}cg.createRoot(document.getElementById("root")).render(sl.jsx(Nn.StrictMode,{children:sl.jsx(Ig,{})}));
